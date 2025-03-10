@@ -6,11 +6,10 @@ import Movies from "./pages/Movies";
 import Contact, { contactData } from "./pages/Contact";
 import Services from "./pages/Services";
 import ErrorPage from "./pages/ErrorPage";
-import GetData from "./api/GetData";
 import getData from "./api/GetData";
-import Card from "./components/UI/Card";
 import MovieDetails from "./components/UI/MovieDetails";
 import getMovieData from "./api/GetMovieData";
+import Faq from "./pages/Faq";
 
 
 const App = () =>{
@@ -47,6 +46,10 @@ const App = () =>{
         {
           path: '/services',
           element: <Services />
+        },
+        {
+          path: '/faqs',
+          element: <Faq />
         }
       ]
 

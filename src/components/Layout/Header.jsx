@@ -76,6 +76,11 @@ const Header = () => {
                 </NavLink>
               </li>
               <li className="text-gray-600 md:mr-12 hover:text-blue-600">
+                <NavLink style={activeLinkStyle} to="/faqs">
+                  FAQ's
+                </NavLink>
+              </li>
+              <li className="text-gray-600 md:mr-12 hover:text-blue-600">
                 <button className="rounded-md border-2 border-blue-600 px-6 py-1 font-medium text-blue-600 transition-colors hover:bg-blue-600 hover:text-white">
                   Login
                 </button>
