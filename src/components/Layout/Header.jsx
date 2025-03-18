@@ -32,7 +32,7 @@ const Header = () => {
                 />
               </svg>
             </span>
-            <span className="text-black">Weakned Diaries</span>
+            <span className="text-black">Weekned Diaries</span>
           </NavLink>
           <input type="checkbox" className="peer hidden" id="navbar-open" />
           <label

@@ -28,7 +28,7 @@ const Footer = () => {
                     />
                   </svg>
                 </span>
-                <span className="text-black">Weakned Diaries</span>
+                <span className="text-black">Weekned Diaries</span>
               </NavLink>
               <p className="max-w-xs mt-4 text-sm text-gray-600">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, accusantium.

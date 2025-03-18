@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "weakend_diaries",
+      "name": "weekend_diaries",
       "dependencies": {
         "@tailwindcss/vite": "^4.0.9",
         "axios": "^1.8.1",
